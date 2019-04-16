@@ -1,4 +1,30 @@
-# skeletonsHolmes
-skeletons for assignments by Holmes
+# in-place selection sort
 
-To use a skeleton, copy it to a directory that is outside this tree.
+Rearrange
+an unordered `ArrayList<Integer>`
+and use it as the data in an `OrderedList_inArraySlots`.
+
+The re-use is probably contrary to Java's conventions
+for its built-in classes. But as a pedagogical tool,
+it has the advantage of allowing
+the User program to check that the sort
+is done in-place.
+
+## count the cost
+
+0. If the number of the elements in the input triples,
+the time required to run the reigning champ algorithm
+will grow by three divided by two times.
+This is as the farther down the list we go, the less comparisons are needed, meaning the increase isn't
+triple. However, the average ends up as 3/2.
+
+0. If the number of the elements in the input triples,
+the number of times that the reigning champ algorithm
+will be invoked 
+will grow by three times.
+The reigningChamp algo is called for every index in the list. Tripling the element number triples the work.
+
+0. If the number of the elements in the input triples,
+the time required for the selection sort
+will grow by 9/2.
+3 * 3/2 = 9/2.
